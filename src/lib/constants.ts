@@ -22,7 +22,7 @@ export const APP_URL: string = process.env.NEXT_PUBLIC_URL!;
  * The name of the mini app as displayed to users.
  * Used in titles, headers, and app store listings.
  */
-export const APP_NAME: string = 'contemplators-mini-app';
+export const APP_NAME: string = 'Contemplators';
 
 /**
  * A brief description of the mini app's functionality.
@@ -65,7 +65,7 @@ export const APP_SPLASH_URL: string = `${APP_URL}/splash.png`;
  * Background color for the splash screen.
  * Used as fallback when splash image is loading.
  */
-export const APP_SPLASH_BACKGROUND_COLOR: string = '#f7f7f7';
+export const APP_SPLASH_BACKGROUND_COLOR: string = '#2a2e26';
 
 /**
  * Account association for the mini app.
@@ -80,7 +80,7 @@ export const APP_ACCOUNT_ASSOCIATION: AccountAssociation | undefined =
  * Text displayed on the main action button.
  * Used for the primary call-to-action in the mini app.
  */
-export const APP_BUTTON_TEXT: string = 'Look';
+export const APP_BUTTON_TEXT: string = 'Discover';
 
 // --- Integration Configuration ---
 /**
